@@ -12,6 +12,7 @@
 		438B203F1BD4002700D3B192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438B203D1BD4002700D3B192 /* Main.storyboard */; };
 		438B20411BD4002700D3B192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438B20401BD4002700D3B192 /* Assets.xcassets */; };
 		438B20441BD4002700D3B192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438B20421BD4002700D3B192 /* LaunchScreen.storyboard */; };
+		438B20501BD443B800D3B192 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B204F1BD443B800D3B192 /* ColorViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		438B20401BD4002700D3B192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438B20431BD4002700D3B192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438B20451BD4002700D3B192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438B204F1BD443B800D3B192 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				438B20391BD4002700D3B192 /* AppDelegate.swift */,
 				438B203B1BD4002700D3B192 /* ViewController.swift */,
+				438B204F1BD443B800D3B192 /* ColorViewController.swift */,
 				438B203D1BD4002700D3B192 /* Main.storyboard */,
 				438B20401BD4002700D3B192 /* Assets.xcassets */,
 				438B20421BD4002700D3B192 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				438B203C1BD4002700D3B192 /* ViewController.swift in Sources */,
+				438B20501BD443B800D3B192 /* ColorViewController.swift in Sources */,
 				438B203A1BD4002700D3B192 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
